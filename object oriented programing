@@ -1,0 +1,18 @@
+package num;
+import java.util.Scanner;
+public class Meters_to_feet {
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter the value in meter:");
+		double meter = in.nextDouble();
+		double feet;
+		//1 meter = 3.2786
+		feet = meter*3.2786;
+		System.out.println("the answer is:"+feet);
+		in.close();
+		
+		
+
+	}
+
+}
